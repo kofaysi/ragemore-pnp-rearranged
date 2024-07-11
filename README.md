@@ -1,6 +1,6 @@
 # Ragemore PNP PDF Rearranger Script
 
-This script processes the Ragemore PNP PDF file by converting its pages to images, adjusting the images, and then combining them back into a PDF. The original double-sided layout is manipulated into a folded layout. The script handles specific image manipulations such as cropping, rotating, and adding white space to ensure the final output matches the desired format. The original PDF and the output are not part of this repository due to licensing. You have to purchase the Ragemore PNP file from PNP Arcade: [Ragemore on PNP Arcade](https://www.pnparcade.com/products/ragemore).
+This script processes the Ragemore PNP PDF file by converting its pages to images, adjusting the images, and then combining them back into a PDF. The original double-sided layout is manipulated into a folded layout. The script handles specific image manipulations such as cropping, rotating, and adding white space to ensure the final output matches the original Letter format. The original PDF and the output are not part of this repository due to licensing. You have to purchase the Ragemore PNP file from PNP Arcade: [Ragemore on PNP Arcade](https://www.pnparcade.com/products/ragemore).
 
 ## Requirements
 
