@@ -53,7 +53,7 @@ for (( i=0; i<num_pages; i+=2 )); do
 
     # Get image height to calculate the amount to cut and add
     image_height=$(identify -format "%h" "$temp_dir/page1_half_0.png")
-    cut_add_height=$(echo "scale=0; $image_height * 6.4 / 216" | bc)
+    cut_add_height=$(echo "scale=0; $image_height * 6.6 / 216" | bc)
 
     # Top half adjustments
     convert "$temp_dir/page1_half_0.png" -gravity South -chop x${cut_add_height} "$temp_dir/page1_half_0_chopped.png"
