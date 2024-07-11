@@ -19,9 +19,9 @@ Ensure the following commands are installed on your system:
    chmod +x process_pdf.sh
 3. Run the script with the input PDF as an argument:
    ```sh
-    ./process_pdf.sh input.pdf
+    ./process_pdf.sh RAGEMORE-PNP.pdf
    ```
-   The output PDF will be saved with the same name as the input, but with -rearranged appended to the filename (e.g., input-rearranged.pdf).
+   The output PDF will be saved with the same name as the input, but with -rearranged appended to the filename (e.g., RAGEMORE-PNP-rearranged.pdf).
 
 ## Detailed Steps
 
@@ -49,9 +49,9 @@ Temporary files are deleted after the script runs to keep the working directory 
 
 To process a PDF file named example.pdf:
 ```sh
-   ./process_pdf.sh example.pdf
+   ./process_pdf.sh RAGEMORE-PNP.pdf
 ```
-This will generate example-rearranged.pdf in the current directory.
+This will generate RAGEMORE-PNP-rearranged.pdf in the current directory.
 
 ## License
 
